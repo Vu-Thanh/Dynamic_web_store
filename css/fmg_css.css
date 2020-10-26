@@ -1,0 +1,239 @@
+#impress{padding:30px 0 0;}
+
+#impress:not(.impress-not-supported) .step{
+	opacity:0.4;
+}
+
+#impress .step{
+	width:700px;
+	height: 600px;
+	position:relative;
+	margin:0 auto;
+	
+	-moz-transition:1s opacity;
+	-webkit-transition:1s opacity;
+	transition:1s opacity;
+}
+
+#impress .step.active{
+	opacity:1;
+}
+
+#impress h2{
+	font: normal 44px/1.5 'PT Sans Narrow', sans-serif;
+	color:#444648;
+	position:absolute;
+	z-index:10;
+}
+
+#impress p{
+	font: normal 18px/1.3 'Open Sans', sans-serif;
+	color:#27333f;
+	position:absolute;
+	z-index:10;
+}
+
+#impress img{
+	position:absolute;
+	z-index:1;
+}
+
+.arrow{
+	width:32px;
+	height:54px;
+	background:url('../images/arrows.png') no-repeat;
+	position:fixed;
+	top:50%;
+	margin-top:-27px;
+	cursor:pointer;
+	text-indent:-9999px;
+	overflow:hidden;
+	opacity:0.8;
+	border:none !important;
+	text-decoration:none !important;
+	
+	-moz-transition:0.2s opacity;
+	-webkit-transition:0.2s opacity;
+	transition:0.2s opacity;
+}
+
+.arrow:hover{
+	opacity:1;
+}
+
+#arrowLeft{
+	left:45px;
+}
+
+#arrowRight{
+	right:45px;
+	background-position:top right;
+}
+
+
+
+/*----------------------------
+	Slide 1 - s1
+-----------------------------*/
+
+
+#impress #s1{
+	width: 500px;
+}
+
+#s1 h2{
+	text-align: center;
+	left: 170px;
+    width: 100%;
+}
+
+#s1 p{
+	font-size: 22px;
+    left: 290px;
+    line-height: 1.6;
+    top: 237px;
+    white-space: nowrap;
+}
+
+#s1 img{
+	top: 120px;
+}
+
+
+/*----------------------------
+	Slide 2 - s2
+-----------------------------*/
+
+
+#impress #s2{
+	width: 675px;
+}
+
+#s2 h2{
+	left: 0;
+	
+	width: 400px;
+}
+
+#s2 p{
+	left: 50px;
+    text-align: justify;
+    text-indent: 16px;
+    top: 257px;
+    width: 365px;
+}
+
+#s2 img{
+	right: 0;
+    top: 77px;
+}
+
+
+/*----------------------------
+	Slide 3 - s3
+-----------------------------*/
+
+
+#impress #s3{
+	width: 560px;
+}
+
+#s3 h2{
+	left: 0;
+	top: 37px;
+	width: 100%;
+	text-align:center;
+}
+
+#s3 p{
+	left:50%;
+	margin-left:-245px;
+    text-align: left;
+    top: 287px;
+    width: 490px;
+}
+
+#s3 img{
+	right: 0;
+}
+
+
+/*----------------------------
+	Slide 4 - s4
+-----------------------------*/
+
+
+#impress #s4{
+	width: 620px;
+}
+
+#s4 h2{
+	left: 0;
+    text-align: left;
+    top: 7px;
+}
+
+#s4 p{
+	left: 32px;
+    top: 255px;
+    width: 280px;
+}
+
+#s4 img{
+	right: 0;
+    top: 70px;
+}
+
+
+/*----------------------------
+	Slide 5 - s5
+-----------------------------*/
+
+
+#impress #s5{
+	width: 690px;
+}
+
+#s5 h2{
+    text-align: center;
+    top: 137px;
+    width: 100%;
+}
+
+#s5 p{
+	font-size: 15px;
+    right: 150px;
+    text-indent: 15px;
+    top: 387px;
+    width: 402px;
+}
+
+#s5 img{
+	top: 37px;
+	right: 0;
+    bottom: 247px;
+}
+
+.myButton {
+	margin-top: 27px;
+	background: #eee;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial Narrow, sans-serif;
+	font-size:27px;
+	padding:16px 77px;
+	text-decoration:none;
+	box-shadow: 7px 7px 7px #d2d2d2;
+}
+.myButton:hover {
+	-webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+    transform: scale(1.3);
+}
